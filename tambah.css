@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar{
+    color: white;
+    border: 1px;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+}
+
+#nama{
+    padding-right: 20px;
+}
+
+.navbar-item{
+    padding-right: 20px;
+}
+
+.boxt-1{
+  position: absolute;
+  top: 15%;
+  left: 20%;
+}
+
+.form-nim,.form-nama{
+    padding: 10px;
+    
+}
+.form-kelamin{
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 500px;
+    height: 20px;  
+    font-size: 15px; 
+    padding: 5px;
+}
+
+label{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+button{
+    margin-top: 20px;
+    color: white;
+    background-color:blue;
+    width: 60px;
+    height: 40px;
+    font-size: 15px;
+}
+
+input radio{
+    width: 20px;
+    height: 20px;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: rebeccapurple;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
