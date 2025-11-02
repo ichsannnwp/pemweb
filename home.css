@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     font-family: sans-serif;
+    
 }
 
 .navbar{
@@ -10,6 +11,8 @@
     background-color: black;
     padding: 20px;
     display: flex;
+    width: 100%;
+    position: fixed;;
 }
 
 #nama{
@@ -60,7 +63,7 @@ table {
     text-align: center;
 }
 
-#Upgrade{
+#Update{
     margin-top: 20px;
     color: white;
     background-color:blue;
@@ -88,4 +91,23 @@ table {
     width: 70px;
     height: 35px;
     font-size: 15px;
+}
+
+#Update{
+    margin-bottom: 20px;
+    width: fit-content;
+    padding: 10px;
+}
+
+#delete{
+    margin-bottom: 20px;
+}
+
+#Update, #delete{
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+:placeholder-shown{
+    padding-left: 10px;
 }
