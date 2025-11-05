@@ -66,6 +66,17 @@ table {
     text-align: center;
 }
 
+<<<<<<< HEAD
+=======
+#Update{
+    margin-top: 20px;
+    color: white;
+    background-color:blue;
+    width: 60px;
+    height: 40px;
+    font-size: 15px;
+}
+>>>>>>> 4a1d75576abd15498cb0e4aca54ec3ecef7341f7
 
 
 .update{
@@ -84,6 +95,7 @@ table {
     width: 70px;
     height: 35px;
     font-size: 15px;
+<<<<<<< HEAD
     border: 20px;
 }
 
@@ -92,3 +104,25 @@ table {
     padding-left: 10px;
 }
 
+=======
+}
+
+#Update{
+    margin-bottom: 20px;
+    width: fit-content;
+    padding: 10px;
+}
+
+#delete{
+    margin-bottom: 20px;
+}
+
+#Update, #delete{
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+:placeholder-shown{
+    padding-left: 10px;
+}
+>>>>>>> 4a1d75576abd15498cb0e4aca54ec3ecef7341f7
